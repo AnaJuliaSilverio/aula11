@@ -5,7 +5,7 @@ public class Main {
         double imc;
         altura = 159;
         peso=70;
-        imc = altura * peso;
+        imc = peso/(altura*altura);
 
         if (imc<18.5){
             //magreza
